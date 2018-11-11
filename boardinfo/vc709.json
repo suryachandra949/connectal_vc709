@@ -3,7 +3,7 @@
         "bsvdefines" : ["XILINX=1", "Virtex7", "PCIE", "PCIE3", "PcieHostInterface", "PhysAddrWidth=40", "NUMBER_OF_LEDS=8", "PcieLanes=8",
 		       	"CONNECTAL_BITS_DEPENDENCES=hw/mkTop.bit", "CONNECTAL_RUN_SCRIPT=$(CONNECTALDIR)/scripts/run.pcietest"],
         "os" : "ubuntu",
-        "partname" : "xc7vx690tffg1761-2",
+        "partname" : "xc7vx690tffg1761-3",
         "need_pcie" : "x7_gen3x8",
         "TOP" : "PcieTop",
         "constraints": [],

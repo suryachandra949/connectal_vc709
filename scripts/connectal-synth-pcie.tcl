@@ -46,7 +46,8 @@ CONFIG.AER_Enabled {true} CONFIG.AER_Multiheader {true} CONFIG.AER_Permit_Root_E
 if {$need_pcie == "x7_gen3x8"} {
 
     if {[version -short] >= "2017.1"} {
-	set x7_pcieversion {4.3}
+	set x7_pcieversion {4.2} 
+       ## i changed it from 4.3 surya
     }
 
     set maxlinkwidth {X8}
